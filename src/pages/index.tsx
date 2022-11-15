@@ -14,7 +14,7 @@ export default function Home () {
     <Container>
       <TitleBox>
         <Image src={'/assets/logoIcon2.png'} alt='logo icon' width={'24'} height={'24'} />
-        <Title>beautydeals.today</Title>
+        <Title>Desconto Beleza</Title>
         <Subtitle>Encontre a promoção certa para você</Subtitle>
       </TitleBox>
       <Offers>
