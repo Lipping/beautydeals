@@ -19,7 +19,9 @@ export default function Home () {
       </TitleBox>
       <Offers>
         <OffersTitle>Ofertas</OffersTitle>
-        <OffersCard title="Perfume importado do Zimbabue SDAIUHSDIDASHUIASDDASHUIHUs sdauisadhasdhiusdaihusdaihudsahuihui" subtitle="americanas" price="R$456" imageUrl="https://images.unsplash.com/photo-1644638768530-713bc23ba978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+        <OffersCard title="Base BB Cream L'Oréal Paris 5 em 1 Cor Morena FPS 20, 30ml" subtitle="amazon.com.br" price="R$19,90" imageUrl="https://m.media-amazon.com/images/I/61D6iOSAI+L._AC_SL1500_.jpg" cardLink="https://amzn.to/3Ai6hiK" />
+        <OffersCard title="Meguiars Shampoo Suave Gel, 473 ml" subtitle="amazon.com.br" price="R$94,40" imageUrl="https://m.media-amazon.com/images/I/51LEuKKLoKL._AC_SL1000_.jpg" cardLink="https://amzn.to/3TAg8XH" />
+        <OffersCard title="Kit Antimarcas Garnier Uniform&Matte Vitamina C - Limpeza Facial + Água Micelar + Protetor Hidratante" subtitle="amazon.com.br" price="R$81,99" imageUrl="https://m.media-amazon.com/images/I/71Ni6VYl8XL._AC_SL1500_.jpg" cardLink="https://amzn.to/3TK4JES" />
       </Offers>
     </Container>
   )
