@@ -30,7 +30,7 @@ export const CardTextBox = styled.div `
 export const CardTitle = styled.p `
     font-size: 0.875rem;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 600;
     color: #0C0C0A;
     display: -webkit-box;
     -webkit-line-clamp: 2;
