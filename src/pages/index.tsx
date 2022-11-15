@@ -13,7 +13,7 @@ export default function Home () {
   return (
     <Container>
       <TitleBox>
-        <Image src={'/../public/assets/logoIcon2.png'} alt='logo icon' width={'24'} height={'24'} />
+        <Image src={'/assets/logoIcon2.png'} alt='logo icon' width={'24'} height={'24'} />
         <Title>beautydeals.today</Title>
         <Subtitle>Encontre a promoção certa para você</Subtitle>
       </TitleBox>
