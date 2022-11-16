@@ -8,9 +8,18 @@ import
   OffersTitle,
  } from "../../shared/Home/style"
 import OffersCard from "../components/card"
+import Head from "next/head"
 
 export default function Home () {
   return (
+   <>
+      <Head>
+        <title>Desconto Beleza</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png"/>
+      </Head>
+   
     <Container>
       <TitleBox>
         <Image src={'/assets/logoIcon2.png'} alt='logo icon' width={'24'} height={'24'} />
@@ -28,5 +37,6 @@ export default function Home () {
         <OffersCard title="CK EVERYONE EAU DE PARFUM 100ML" subtitle="amazon.com.br" price="R$230,00" imageUrl="https://m.media-amazon.com/images/I/71HMO8JS73L._AC_SL1500_.jpg" cardLink="https://amzn.to/3TUGnZn" />
       </Offers>
     </Container>
+    </>
   )
 }
